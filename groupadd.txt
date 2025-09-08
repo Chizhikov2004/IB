@@ -1,0 +1,16 @@
+Создание и управление группами пользователей
+
+1. Создание группы: 
+sudo groupadd "имя группы"
+sudo groupadd group1
+
+2. Установка пароля на группу:
+sudo gpasswd "имя группы"
+group2:1::
+group3:!::
+user1:!::
+user2:!::
+root@alex-pc:/home/alex# gpasswd group1
+Changing the password for group group1
+New Password:
+Re-enter new password:
